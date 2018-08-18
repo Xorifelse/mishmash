@@ -52,9 +52,6 @@ describe("Assignment 1 - ShoppingCart", function() {
       "Items array should be equal after cloning"
     )
     cart2.addItem("Shoes", 1, 90.0)
-
-    console.log(cart1.getItems())
-    console.log(cart2.getItems())
     assert.notDeepStrictEqual(
       cart1.getItems(),
       cart2.getItems(),

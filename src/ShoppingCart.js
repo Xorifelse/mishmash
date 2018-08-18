@@ -27,7 +27,3 @@ class ShoppingCart{
     return a
   }
 }
-
-
-
-console.log('test')
